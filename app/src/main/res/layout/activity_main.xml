@@ -24,12 +24,14 @@
                 android:layout_height="match_parent"
                 android:gravity="bottom|right"
                 android:text="TextView"
+                android:textColor="@color/black"
                 android:textSize="45dp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -81,6 +83,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="7"
                     android:text="7"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -94,6 +97,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="8"
                     android:text="8"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -107,6 +111,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="9"
                     android:text="9"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -141,6 +146,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="4"
                     android:text="4"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -155,6 +161,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="5"
                     android:text="5"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -168,6 +175,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="6"
                     android:text="6"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -206,6 +214,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="1"
                     android:text="1"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -220,6 +229,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="2"
                     android:text="2"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -234,6 +244,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="3"
                     android:text="3"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -267,6 +278,7 @@
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
+                    android:tag="0"
                     android:text="0"
                     android:textSize="50sp"
                     app:elevation="2dp" />
@@ -276,7 +288,7 @@
                     android:layout_width="126dp"
                     android:layout_height="85dp"
                     android:layout_weight="1"
-                    android:insetLeft="2dp"
+                    android:insetLeft="0dp"
                     android:insetTop="2dp"
                     android:insetRight="2dp"
                     android:insetBottom="2dp"
